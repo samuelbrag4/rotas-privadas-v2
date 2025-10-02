@@ -99,78 +99,84 @@ export default function LoginScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f5f5f5",
+    backgroundColor: "#f0f0f0",
   },
-  content: {
+    content: {
     flex: 1,
     justifyContent: "center",
-    paddingHorizontal: 30,
-    paddingTop: 50,
+    alignItems: "center",
+    padding: 20,
   },
   emoji: {
-    fontSize: 80,
-    textAlign: "center",
+    fontSize: 64,
     marginBottom: 20,
+    textAlign: "center",
   },
   title: {
     fontSize: 28,
     fontWeight: "bold",
-    textAlign: "center",
     marginBottom: 10,
+    textAlign: "center",
     color: "#333",
   },
   subtitle: {
     fontSize: 16,
-    textAlign: "center",
-    marginBottom: 40,
     color: "#666",
+    marginBottom: 30,   
+    textAlign: "center",
   },
   input: {
     backgroundColor: "#fff",
-    paddingHorizontal: 15,
-    paddingVertical: 12,
     borderRadius: 8,
+    padding: 15,
     marginBottom: 15,
     fontSize: 16,
     borderWidth: 1,
     borderColor: "#ddd",
   },
-  button: {
+    button: {
     backgroundColor: "#007bff",
-    paddingVertical: 15,
     borderRadius: 8,
+    padding: 15,
+    alignItems: "center",
     marginTop: 10,
-    marginBottom: 20,
+    minHeight: 50,
+    justifyContent: "center",
   },
-  buttonDisabled: {
-    backgroundColor: "#ccc",
+    buttonDisabled: {
+    backgroundColor: "#007bff",
+    borderRadius: 8,
+    padding: 15,
+    alignItems: "center",
+    marginTop: 10,
+    minHeight: 50,
+    justifyContent: "center",
   },
-  buttonText: {
+    buttonText: {
     color: "#fff",
-    textAlign: "center",
     fontSize: 16,
     fontWeight: "bold",
   },
-  registerContainer: {
+    registerContainer: {
     flexDirection: "row",
     justifyContent: "center",
-    alignItems: "center",
     marginTop: 20,
+    alignItems: "center",
   },
-  registerText: {
-    fontSize: 14,
+    registerText: {
     color: "#666",
+    fontSize: 16,
   },
-  registerLink: {
-    fontSize: 14,
+    registerLink: {
     color: "#007bff",
     fontWeight: "bold",
+    fontSize: 16,
   },
-  infoText: {
-    fontSize: 12,
-    color: "#888",
-    textAlign: "center",
+    infoText: {
     marginTop: 30,
-    fontStyle: "italic",
+    color: "#999",
+    fontSize: 14,
+    textAlign: "center",
+    paddingHorizontal: 20,
   },
 });
